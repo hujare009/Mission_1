@@ -93,12 +93,17 @@ body {
   display: flex;
   justify-content: center;
 }
+/*resto*/
+
+.restaurants__container {
+  margin-top: 30px;
+}
 
 .restaurants__descriptions {
-  font-size: 30px;
+  font-size: 50px;
   color: #1d3557;
   margin-top: 30px 0;
-  text-align: left;
+  text-align: center;
 }
 
 .restaurants__flex__row__one,
@@ -109,10 +114,10 @@ body {
 }
 
 .restaurants__flex__row__one {
-  align-items: baseline; /*space after restaurants 1st row*/
-  margin-bottom: 4px;
+  align-items: baseline;
+  margin-bottom: 10px;
 }
-* .restaurant__1__image,
+.restaurant__1__image,
 .restaurant__2__image,
 .restaurant__3__image,
 .restaurant__4__image {
@@ -122,14 +127,14 @@ body {
 }
 
 .restaurant__1,
-.restaurant__4 {
+.restaurant__3 {
   width: 100%;
   height: 150px;
 }
 
 .restaurant__2,
-.restaurant__3 {
-  width: 120%; /*it will make rests. images in a straight line*/
+.restaurant__4 {
+  width: 120%;
   height: 200px;
 }
 
@@ -214,7 +219,7 @@ body {
   margin: 0 1rem;
   text-align: center;
 }
-.text-xl {
+.text__to {
   font-size: 1.5rem;
   line-height: 2rem;
   color: #1d3557;
@@ -278,17 +283,16 @@ body {
     margin-bottom: 30px;
   }
 
-  .restaurants__description {
+  /*resto*/
+  .restaurants__descriptions {
     font-size: 40px;
     width: 100%;
   }
 
   .restaurants__container {
-    margin-top: 30px;
     display: flex;
     align-items: center;
   }
-
   .restaurants__flex {
     width: 100%;
   }
@@ -296,13 +300,7 @@ body {
   .update__container {
     position: relative;
   }
-
-  /*.update__button{
-        position: absolute;   
-        left: 0;
-        top: 0;
-    }*/
-
+  /*
   .restaurants__flex__row__one {
     justify-content: center;
   }
@@ -310,11 +308,13 @@ body {
     margin-top: 3px;
     align-items: flex-start;
     justify-content: center;
-  }
+  }*/
+
   .update__container {
     display: flex;
     justify-content: center;
   }
+
   .update__input {
     width: 20rem;
   }
@@ -359,19 +359,16 @@ body {
     font-size: 50px;
   }
 
+  .text__to {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  /*resto do it here*/
   .restaurants__container {
     margin-top: 30px;
   }
-  .restaurant2,
-  .restaurant4 {
-    width: 300px;
-    height: 260px;
-  }
-  .restaurant1,
-  .restaurant3 {
-    width: 250px;
-    height: 180px;
-  }
+
   .update__text {
     font-size: 3rem;
     line-height: 1;
@@ -382,7 +379,7 @@ body {
   .container {
     max-width: 1250px;
   }
-  .text-xl {
+  .text__to {
     font-size: 3rem;
     line-height: 1;
   }

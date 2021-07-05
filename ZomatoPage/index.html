@@ -85,8 +85,8 @@
 
 <!--restaurants-->
 <section class="restaurants__container">
-      <h1 class="restaurants__descriptions">Order From 100s of Restaurants...</h1>
-       <div class="restaurants__flex">
+      <h4 class="restaurants__descriptions">Order From 100s of Restaurants...</h4>       
+      <div class="restaurants__flex">
        <div class="restaurants__flex__row__one">
         <div class="restaurant__1">
          <img 
@@ -94,29 +94,29 @@
           src="./assets/restaurant1.jpg"
           alt="restaurant__1"
        />
-       </div>
-     <div class="restaurant__2">
+       </div> 
+     <div class="restaurant__4">
        <img 
-          class="restaurant__2__image"
-          src="./assets/restaurant2.jpg"
-          alt="restaurant__2"
+          class="restaurant__4__image"
+          src="./assets/restaurant4.jpg"
+          alt="restaurant__4"
        />
        </div>
     </div>
        <div class="restaurants__flex__row__two">
-           <div class="restaurant__3">
+           <div class="restaurant__2">
         
+        <img 
+           class="restaurant__2__image"
+           src="./assets/restaurant2.jpg"
+           alt="restaurant__2"
+        />
+        </div>
+        <div class="restaurant__3" >
         <img 
            class="restaurant__3__image"
            src="./assets/restaurant3.jpg"
            alt="restaurant__3"
-        />
-        </div>
-        <div class="restaurant__4" >
-        <img 
-           class="restaurant__4__image"
-           src="./assets/restaurant4.jpg"
-           alt="restaurant__4"
         />
    
         </div>
@@ -139,7 +139,7 @@
          </div>
          </div>
      </section>
-     
+     <!--
      <section class="quote__container">
         <div class="quote_image_overlay"></div>
         <h3 class="quote_image_text">
@@ -158,5 +158,17 @@
             <li>Contact</li>
         </ul>
     </footer>
+    <script>
+        const hamburgermenu = document.getElementById("hamburgermenu");
+      const mobileNavDropDown = document.querySelector(
+        ".mobile__navbar__items"
+      );
+      window.addEventListener("click", () => {
+        if (mobileNavDropDown.classList.contains("hamburger__menu__close"))
+          return mobileNavDropDown.classList.remove("hamburger__menu__close");
+        return mobileNavDropDown.classList.add("hamburger__menu__close");
+      });
+    </script
+    -->
   </body>
 </html>
